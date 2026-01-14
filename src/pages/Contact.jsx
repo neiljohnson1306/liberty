@@ -64,7 +64,7 @@ export default function Contact() {
 
             {/* Static form (GitHub Pages safe) */}
             <form
-              action="https://formspree.io/f/YOUR_FORM_ID"
+              action="https://formspree.io/f/mbddldvy"
               method="POST"
               className="space-y-4"
             >

@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply bg-white text-primary antialiased;
+  @apply bg-white text-primary antialiased transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-darkBg text-darkText;
 }

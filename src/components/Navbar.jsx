@@ -24,6 +24,7 @@ export default function Navbar() {
           <Link className="hover:text-accent" to="/about">About</Link>
           <Link className="hover:text-accent" to="/services">Services</Link>
           <Link className="hover:text-accent" to="/case-studies">Case Studies</Link>
+          
           <Link
             to="/contact"
             className="px-4 py-2 rounded-lg bg-accent text-white hover:opacity-90 transition"

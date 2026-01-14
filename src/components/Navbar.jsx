@@ -16,6 +16,8 @@ export default function Navbar() {
           <Link to="/contact" className="text-accent font-semibold">
             Contact
           </Link>
+          <Link to="/case-studies">Case Studies</Link>
+
 
           <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}

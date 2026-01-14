@@ -1,3 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-primary antialiased transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-darkBg text-darkText;
+}
+
+
 /* Animated gradient background */
 .hero-bg {
   background: linear-gradient(

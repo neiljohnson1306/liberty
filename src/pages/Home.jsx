@@ -3,7 +3,7 @@ import CTA from '../components/CTA'
 
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-16">
+   <div className="max-w-7xl mx-auto px-6 py-16 bg-white dark:bg-darkBg transition-colors">
       <h1 className="text-5xl font-bold mb-6">
         Strategic Consulting for Sustainable Growth
       </h1>

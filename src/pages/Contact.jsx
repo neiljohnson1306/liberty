@@ -33,25 +33,15 @@ export default function Contact() {
               <p>
                 <strong>Email:</strong>{" "}
                 <a
-                  href="mailto:contact@libertyconsultancy.com"
+                  href="mailto:contact@libertyconsultancy.co.uk"
                   className="text-accent hover:underline"
                 >
-                  contact@libertyconsultancy.com
+                  contact@libertyconsultancy.co.uk
                 </a>
               </p>
 
               <p>
-                <strong>Phone:</strong>{" "}
-                <a
-                  href="tel:+353000000000"
-                  className="text-accent hover:underline"
-                >
-                  +353 00 000 0000
-                </a>
-              </p>
-
-              <p>
-                <strong>Location:</strong> Ireland / Europe
+                <strong>Location:</strong> UK / Europe
               </p>
             </div>
           </div>

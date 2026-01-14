@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="max-w-xl mx-auto px-6 py-16">
+    <div className="max-w-7xl mx-auto px-6 py-16 bg-white dark:bg-darkBg transition-colors">
       <h2 className="text-4xl font-bold mb-6">Contact Us</h2>
       <form className="space-y-4">
         <input className="w-full border p-3 rounded" placeholder="Name" />

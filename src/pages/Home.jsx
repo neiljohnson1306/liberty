@@ -1,5 +1,7 @@
 import ServiceCard from "../components/ServiceCard"
 import CTA from "../components/CTA"
+import Counter from "../components/Counter"
+
 
 export default function Home() {
   return (
@@ -7,15 +9,26 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-bg text-white">
         <div className="max-w-7xl mx-auto px-6 py-32 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Strategic Consulting for Sustainable Growth
           </h1>
-          <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto">
+          <p className="text-lg md:text-2xl opacity-90 max-w-3xl mx-auto">
             Liberty Consultancy partners with organizations to deliver clarity,
             transformation, and measurable impact.
           </p>
         </div>
       </section>
+
+      {/* Metrics Section */}
+    <section className="max-w-7xl mx-auto px-6 py-16">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <Counter value={15} label="Years Experience" />
+        <Counter value={120} label="Projects Delivered" />
+        <Counter value={98} label="Client Satisfaction (%)" />
+        <Counter value={12} label="Countries Served" />
+      </div>
+    </section>
+
 
       {/* Services */}
       <section className="max-w-7xl mx-auto px-6 py-20">

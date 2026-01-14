@@ -22,10 +22,10 @@ export default function Home() {
       {/* Metrics Section */}
     <section className="max-w-7xl mx-auto px-6 py-16">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-        <Counter value={15} label="Years Experience" />
-        <Counter value={120} label="Projects Delivered" />
+        <Counter value={8} label="Years Experience" />
+        <Counter value={40} label="Projects Delivered" />
         <Counter value={98} label="Client Satisfaction (%)" />
-        <Counter value={12} label="Countries Served" />
+        <Counter value={8} label="Countries Served" />
       </div>
     </section>
 
